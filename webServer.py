@@ -47,10 +47,10 @@ def webServer(port=13331):
         outputdata += line
       #Send the content of the requested file to the client (don't forget the headers you created)!
       #Send everything as one send command, do not send one line/item at a time!
-      print("Requested file:", filename)
-      print("Response data:", outputdata)
+      #print("Requested file:", filename)
+      #print("Response data:", outputdata)
 
-      pbd.set_trace()
+      #pbd.set_trace()
       # Fill in start
       connectionSocket.sendall(outputdata)
       # Fill in end
