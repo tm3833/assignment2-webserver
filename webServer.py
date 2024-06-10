@@ -1,3 +1,7 @@
+#Tracy Miles
+#CS-GY 6843 Summer
+#6/10/2024
+
 # import socket module
 from socket import *
 # In order to terminate the program
